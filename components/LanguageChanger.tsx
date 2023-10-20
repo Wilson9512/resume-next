@@ -10,8 +10,8 @@ import {
   SelectContent,
   SelectItem,
   SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select"
+  SelectValue
+} from './ui/select';
 
 export const LanguageChanger = () => {
   const [isPending, startTransition] = useTransition();
